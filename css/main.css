@@ -50,6 +50,14 @@ body {
 }
 
 
+/* custom color */
+:root {
+    --primary-color: #77C0D2;
+    --secondary-color: #284962;
+    --point-color: #DF94A0;
+    --content-color: #353535;
+}
+
 
 /* CSS for Hamburger Menu */
 #togglerIcon{
