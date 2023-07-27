@@ -184,3 +184,7 @@ width: 260px;
     color: white;
     padding: 200px 0 50px 0;
 }
+
+.about .btn {
+    background-color: var(--point-color);
+}
