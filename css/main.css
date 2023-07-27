@@ -62,14 +62,14 @@ body {
 h1 {
     font-family: 'PT Sans';
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
 h4 {
     font-size: 1.1rem;
     font-family: Helvetica;
-    
+
 }
 
 p {
@@ -158,3 +158,16 @@ width: 260px;
 }
 
 
+/* banner */
+.about {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem 2rem;
+}
+
+.about h1 {
+    color: white;
+    padding: 200px 0 50px 0;
+}
