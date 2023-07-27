@@ -58,6 +58,25 @@ body {
     --content-color: #353535;
 }
 
+  /* font style */
+h1 {
+    font-family: 'PT Sans';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+h4 {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 0.8rem;
+}
+
 
 /* CSS for Hamburger Menu */
 #togglerIcon{
@@ -73,7 +92,7 @@ body {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
-  }
+}
 
 #togglerIcon span {
     display: block;
@@ -92,55 +111,50 @@ body {
     -moz-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
-  }
+}
 
 #togglerIcon span:nth-child(1) {
     top: 0px;
-  }
+}
   
 #togglerIcon span:nth-child(2),#togglerIcon span:nth-child(3) {
     top: 12px;
-  }
+}
   
 #togglerIcon span:nth-child(4) {
     top: 24px;
-  }
+}
 
-  #togglerIcon.open span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-  }
+#togglerIcon.open span:nth-child(1) {
+top: 18px;
+width: 0%;
+left: 50%;
+}
   
-  #togglerIcon.open span:nth-child(2) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  
-  #togglerIcon.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-  }
-  
-  #togglerIcon.open span:nth-child(4) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-  }
+#togglerIcon.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#togglerIcon.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+#togglerIcon.open span:nth-child(4) {
+top: 18px;
+width: 0%;
+left: 50%;
+}
 
 
-  /* logo */
-  .img-logo {
-    width: 260px;
-  }
+/* logo */
+.img-logo {
+width: 260px;
+}
 
 
-  /* font style */
-  h4 {
-    font-size: 1.1rem;
-    font-family: Helvetica;
-  }
