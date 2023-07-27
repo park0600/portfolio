@@ -43,6 +43,12 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    width: 100%;
+    background-color: white;
+    font-family: 'Inter', 'PT Sans';
+}
+
 
 
 
@@ -117,4 +123,11 @@ table {
     top: 18px;
     width: 0%;
     left: 50%;
+  }
+
+
+
+  /* logo */
+  .img-logo {
+    width: 260px;
   }
