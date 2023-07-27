@@ -78,6 +78,19 @@ p {
 }
 
 
+/* button style */
+#btn-about,
+#btn-contact {
+    padding: 0.5rem;
+    font-family: 'Inter';
+    font-size: 0.7rem;
+    font-weight: 500;
+    width: 9rem;
+    color: white;
+    border-radius: 0;
+}
+
+
 /* CSS for Hamburger Menu */
 #togglerIcon{
     width: 40px;
