@@ -50,6 +50,7 @@ body {
 }
 
 
+
 /* custom color */
 :root {
     --primary-color: #77C0D2;
@@ -201,5 +202,11 @@ width: 260px;
 }
 
 #btn-contact {
+    background-color: var(--secondary-color);
+}
+
+
+/* footer */
+footer {
     background-color: var(--secondary-color);
 }
