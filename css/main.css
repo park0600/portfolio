@@ -80,7 +80,8 @@ p {
 
 /* button style */
 #btn-about,
-#btn-contact {
+#btn-contact,
+#btn-work {
     padding: 0.5rem;
     font-family: 'Inter';
     font-size: 0.7rem;
@@ -168,6 +169,11 @@ left: 50%;
 /* logo */
 .img-logo {
 width: 260px;
+}
+
+/* carousel gallery */
+#btn-work {
+    background-color: var(--primary-color);
 }
 
 
