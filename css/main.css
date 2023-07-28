@@ -183,14 +183,23 @@ width: 260px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 400px;
     padding: 3rem 2rem;
-}
-
-.about h1 {
-    color: white;
-    padding: 200px 0 50px 0;
 }
 
 .about .btn {
     background-color: var(--point-color);
+}
+
+/* contact */
+.contact {
+    background-image: url(../images/main-contact\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem 2rem;
+}
+
+#btn-contact {
+    background-color: var(--secondary-color);
 }
