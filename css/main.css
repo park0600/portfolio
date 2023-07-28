@@ -185,10 +185,9 @@ width: 260px;
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-    /* padding: 3rem 2rem; */
 }
 
-.about .btn {
+#btn-about {
     background-color: var(--point-color);
 }
 
@@ -198,7 +197,6 @@ width: 260px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 3rem 2rem;
 }
 
 #btn-contact {
