@@ -50,10 +50,6 @@ body {
 }
 
 
-* {
-    box-sizing: content-box;
-}
-
 
 /* custom color */
 :root {
@@ -189,7 +185,7 @@ width: 260px;
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-    padding: 3rem 2rem;
+    /* padding: 3rem 2rem; */
 }
 
 .about .btn {
