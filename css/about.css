@@ -72,14 +72,9 @@ h3 {
     font-family: Helvetica;
 }
 
-h4 {
+h4, p{
     font-size: 1rem;
     font-family: 'Inter';
-}
-
-p {
-    font-family: 'Inter';
-    font-size: 0.7rem;
 }
 
 
