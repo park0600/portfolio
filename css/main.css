@@ -213,4 +213,7 @@ footer {
     .about {
         height: 600px;
     }
+    .contact {
+        height: 400px;
+    }
 }
