@@ -171,6 +171,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 7.7rem;
 }
 
 .overlayBox {
