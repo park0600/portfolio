@@ -60,17 +60,21 @@ body {
 }
 
   /* font style */
-h1 {
+h2 {
     font-family: 'PT Sans';
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--primary-color)
 }
 
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: Helvetica;
+}
 
+h4 {
+    font-size: 1rem;
+    font-family: 'Inter';
 }
 
 p {
@@ -188,6 +192,7 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
 }
 
+ 
 
 
 /* footer */
