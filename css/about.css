@@ -75,7 +75,7 @@ h3 {
 
 p {
     font-family: 'Inter';
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 
@@ -187,6 +187,8 @@ header {
     background: linear-gradient(to bottom, #284962 0%,#8B535B 90%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
 }
+
+
 
 /* footer */
 footer {
