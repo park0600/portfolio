@@ -64,12 +64,7 @@ h1 {
     font-family: 'PT Sans';
     font-size: 2rem;
     font-weight: 600;
-}
-
-h2 {
-    font-family: 'Inter';
-    font-size: 1.3rem;
-    color: var(--content-color);
+    color: var(--primary-color);
 }
 
 
@@ -201,7 +196,7 @@ header {
 }
 
 .contact-info table th {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 
