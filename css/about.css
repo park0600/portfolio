@@ -60,21 +60,28 @@ body {
 }
 
   /* font style */
-h2 {
+h1 {
     font-family: 'PT Sans';
-    font-size: 1.4rem;
-    color: var(--primary-color)
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-size: 1.3rem;
+    color: var(--primary-color);
 }
 
 
-h3 {
+h4 {
     font-size: 1.1rem;
     font-family: Helvetica;
+
 }
 
-p{
-    font-size: 1rem;
+p {
     font-family: 'Inter';
+    font-size: 0.8rem;
 }
 
 
@@ -163,6 +170,13 @@ top: 18px;
 width: 0%;
 left: 50%;
 }
+
+.collapse {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
 
 header {
     background-image: url(../images/photo-korea05.jpg);
