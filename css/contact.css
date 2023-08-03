@@ -194,6 +194,17 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
 }
 
+.contact-info table tr,
+.contact-info table th,
+.contact-info table td {
+    padding: 0.4rem;
+}
+
+.contact-info table th {
+    color: var(--primary-color);
+}
+
+
 #btn-resume {
     font-family: 'Inter';
     font-size: 0.7rem;
