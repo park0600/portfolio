@@ -230,11 +230,6 @@ footer {
         height: 10rem;
     }
 
-    #top-logo {
-        position:absolute;
-        left:1rem; top: 1rem;;
-    }
-
     .wrapper {
         margin:0 auto;
         max-width: 1024px;
