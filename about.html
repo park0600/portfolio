@@ -17,7 +17,7 @@
 <!-- header: nav, logo -->
     <header>
         <div class="overlayBox m-0 z-0" style="opacity: 0.6;"></div>
-        <nav class="navbar navbar-expand-md navbar-light p-0 z-1">
+        <nav class="navbar navbar-expand-md navbar-light p-0 z-1"> <!-- z-1 doesn't work at lg -->
             <div class="container-fluid">
                 <button class="navbar-toggler ms-auto border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-controls="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <div id="togglerIcon">
@@ -37,8 +37,8 @@
             </div>
         </nav>
         <div>
-            <img class="img-logo d-none d-sm-block" src="images/s_logo_g.png" alt="A logo of Joyful Page Website">
-            <div class="d-flex justify-content-center"><h3 class="text-light fw-medium z-2">About Me</h3></div>
+            <img class="img-logo d-none d-sm-block sticky-top" src="images/s_logo_g.png" alt="A logo of Joyful Page Website">
+            <div class="d-flex justify-content-center align-content-center-md"><h3 class="text-light fw-medium z-2">About Me</h3></div>
         </div>
 
 
@@ -52,14 +52,14 @@
     <main>
         
         <div class="container-fluid g-0">
-            <section class="profile">
+            <section class="profile row mx-5">
                 <!-- main-profile: h3, p -->
-                <div class="p-3">
-                    <img class="img-thumbnail rounded mx-auto d-block border-0" src="images/about-profile.jpg" alt="A portrait of Joy Park">
+                <div class="col-sm-6 order-1 order-sm-0 p-3">
+                    <img class="img-fluid rounded mx-auto d-block border-0" src="images/about-profile.jpg" alt="A portrait of Joy Park">
                 </div>
-                <div class="p-3">
-                    <h4 class="fw-semibold py-2">안녕! Hi!</h4>
-                    <p class="fw-light lh-sm">My name is Joy and I am an Interactive Media Designer. My personality type is ISFJ which is Adventurer. I tend to have open minds, approaching life, new experiences, and people with grounded warmth.</p>
+                <div class="col-sm-6 order-0 order-sm-1 p-3">
+                    <h4 class="fw-semibold-sm py-2 ">안녕! Hi!</h4> <!-- fs-1-lg doesn't work -->
+                    <p class="fw-light lh-sm">My name is Joy and I am an Interactive Media Designer. My personality type is ISFJ which is Adventurer. I tend to have open minds, approaching life, new experiences, and people with grounded warmth.</p> <!-- fs-5-lg doesn't work -->
                 </div>
             </section>
 
