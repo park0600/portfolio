@@ -243,17 +243,17 @@ footer {
     .navbar-nav li {
         font-size: 0.8rem;
     }
-
-    .profile {
+a
+    .greeting {
         padding-inline: 5rem;
     }
 
-    .profile h4 {
+    .greeting h4 {
         font-size: 2rem;
         font-weight: bold;
     }
 
-    .profile p {
+    .greeting p {
         font-size: 1.2rem;
     }
 
