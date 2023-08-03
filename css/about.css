@@ -242,4 +242,9 @@ footer {
     .profile p {
         font-size: 1.2rem;
     }
+
+    #btn-resume {
+        font-size: 1rem;
+        width: 12rem;
+    }
 }
