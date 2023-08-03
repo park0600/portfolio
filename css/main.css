@@ -215,4 +215,13 @@ footer {
     .contact {
         height: 400px;
     }
+
+    .wrapper {
+        margin:0 auto;
+        max-width: 1024px;
+    }
+
+    .navbar-nav li {
+        font-size: 0.8rem;
+    }
 }
