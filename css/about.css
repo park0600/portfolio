@@ -168,8 +168,8 @@ header {
     background-image: url(../images/photo-korea05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 3rem;
+    background-position: 65% 35%;
+    height: 8rem; 
 }
 
 .overlayBox {
