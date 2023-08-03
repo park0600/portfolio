@@ -225,7 +225,10 @@ footer {
         margin:0 auto;
         max-width: 1024px;
     }
-   
+
+    .navbar-nav li {
+        font-size: 0.8rem;
+    }
 
     .profile {
         padding-inline: 5rem;
