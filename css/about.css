@@ -176,7 +176,7 @@ header {
     position:absolute;
     left:0; top:0;
     width:100%;
-    padding-block: 3.8rem;
+    height: 8rem;
     display:inline-block;
     background: -moz-linear-gradient(top, #284962 0%, #8B535B 90%); /* FF3.6+ */
     background: -webkit-linear-gradient(linear, left top, left bottom, color-start(0%,#284962), color-stop(90%,#8B535B)); /* Chrome,Safari4+ */
@@ -205,4 +205,28 @@ header {
 /* footer */
 footer {
     background-color: var(--secondary-color);
+}
+
+@media screen and (min-width: 760px) {
+    header {
+        height: 10rem;
+    }
+
+    .overlayBox {
+        height: 10rem;
+    }
+
+    .profile {
+        padding-inline: 5rem;
+    }
+
+    .profile h4 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .profile p {
+        font-size: 1.4rem;
+    }
+
 }
