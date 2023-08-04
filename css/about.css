@@ -176,7 +176,9 @@ left: 50%;
     width: 100%;
 }
 
-
+.nav-link {
+    color: var(--secondary-color);
+}
 
 header {
     background-image: url(../images/photo-korea05.jpg);
@@ -237,6 +239,10 @@ footer {
 
     .navbar-nav li {
         font-size: 0.8rem;
+    }
+
+    .nav-link {
+        color: white;
     }
 
     .greeting {
