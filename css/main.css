@@ -249,19 +249,34 @@ footer {
 }
 
 @media screen and (min-width: 760px) {
+
+    /* for all pages */
+    .wrapper {
+        margin:0 auto;
+        max-width: 1024px;
+    }
+    
+    .navbar-nav li {
+        font-size: 0.8rem;
+    }
+
+    /* main page CSS */
     .about {
         height: 500px;
     }
     .contact {
         height: 500px;
     }
-
-    .wrapper {
-        margin:0 auto;
-        max-width: 1024px;
+    
+    /* subpage CSS */
+    .header-sub {
+        height: 10rem;
     }
 
-    .navbar-nav li {
-        font-size: 0.8rem;
+    .overlayBox {
+        height: 10rem;
     }
+    
+
+
 }
