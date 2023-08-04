@@ -250,7 +250,7 @@ footer {
 
 @media screen and (min-width: 760px) {
 
-    /* for all pages */
+    /* Style for all pages */
     .wrapper {
         margin:0 auto;
         max-width: 1024px;
@@ -260,7 +260,7 @@ footer {
         font-size: 0.8rem;
     }
 
-    /* main page CSS */
+    /* Style for main page */
     .about {
         height: 500px;
     }
@@ -268,7 +268,7 @@ footer {
         height: 500px;
     }
     
-    /* subpage CSS */
+    /* Style for subpage */
     .header-sub {
         height: 10rem;
     }
@@ -278,5 +278,13 @@ footer {
     }
     
 
+    /* Style for About page */
+    .greeting {
+        padding-inline: 5rem;
+    }
+
+
+
+    /* Style for Work page */
 
 }
