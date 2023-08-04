@@ -177,14 +177,8 @@ width: 260px;
 }
 
 
-/* banner */
-.about {
-    background-image: url(../images/main-banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 350px;
-}
+/* header for main */
+
 
 #btn-about {
     background-color: var(--point-color);
@@ -198,7 +192,31 @@ width: 260px;
     height: 8rem; 
 }
 
-/* contact */
+.overlayBox {
+    position:absolute;
+    left:0; top:0;
+    width:100%;
+    height: 8rem;
+    display:inline-block;
+    background: -moz-linear-gradient(top, #284962 0%, #8B535B 90%); /* FF3.6+ */
+    background: -webkit-linear-gradient(linear, left top, left bottom, color-start(0%,#284962), color-stop(90%,#8B535B)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #284962 0%, #8B535B 90%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #284962 0%, #8B535B 90%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #284962 0%, #8B535B 90%); /* IE10+ */
+    background: linear-gradient(to bottom, #284962 0%,#8B535B 90%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
+}
+
+/* main-about */
+.about {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+
+/* main-contact */
 .contact {
     background-image: url(../images/main-contact2.jpg);
     background-size: cover;
@@ -209,6 +227,10 @@ width: 260px;
 #btn-contact {
     background-color: var(--secondary-color);
 }
+
+/* about page */
+
+
 
 
 /* footer */
