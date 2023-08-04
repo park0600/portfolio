@@ -200,7 +200,6 @@ width: 260px;
 
 /* headeer for subpages */
 .header-about {
-    background-image: url(../images/photo-korea05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65% 35%;
