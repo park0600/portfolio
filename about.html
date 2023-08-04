@@ -20,13 +20,23 @@
             <div class="overlayBox m-0 z-0" style="opacity: 0.6;"></div>
             <nav class="wrapper navbar navbar-expand-md navbar-light p-0 z-1"> <!-- z-1 doesn't work at lg -->
                 <a href="index.html"><img id="top-logo" class="img-logo d-none d-md-block p-3 z-2" src="images/s_logo_s.png" alt="A logo of Joyful Page Website"></a>
-                <div class="collapse navbar-collapse" id="collapseMenu">
-                    <ul class="navbar-nav ms-auto list-group text-center pb-5-sm">
-                        <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="about.html">About</a></li>
-                        <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="#">Work</a></li>
-                        <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="container-fluid g-0 w-100">                         <!-- appear strange border when click hamburger -->
+                    <a href="#" class="navbar-toggler ms-auto border-0 px-3" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <div id="togglerIcon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>    
+                    <div class="collapse navbar-collapse" id="collapseMenu">
+                        <ul class="navbar-nav ms-auto list-group text-center pb-5-sm">
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="about.html">About</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="#">Work</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </section>
