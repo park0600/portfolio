@@ -164,7 +164,9 @@ left: 50%;
     width: 100%;
 }
 
-
+.nav-link {
+    color: var(--secondary-color);
+}
 
 header {
     background-image: url(../images/contact-banner.png);
@@ -200,7 +202,7 @@ header {
 }
 
 
-#btn-resume {
+.btn-submit {
     font-family: 'Inter';
     font-size: 0.7rem;
     font-weight: 500;
@@ -231,6 +233,10 @@ footer {
 
     .navbar-nav li {
         font-size: 0.8rem;
+    }
+
+    .nav-link {
+        color: white;
     }
 
 
