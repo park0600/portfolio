@@ -21,20 +21,20 @@
             <nav class="wrapper navbar navbar-expand-md navbar-light p-0 z-1"> <!-- z-1 doesn't work at lg -->
                 <a href="index.html"><img id="top-logo" class="img-logo d-none d-md-block p-3 z-2" src="images/s_logo_s.png" alt="A logo of Joyful Page Website"></a>
                 <div class="container-fluid g-0 w-100">                         <!-- appear strange border when click hamburger -->
-                    <button class="navbar-toggler ms-auto border-0 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-controls="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <a href="#" class="navbar-toggler ms-auto border-0 px-3" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
                         <div id="togglerIcon">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
-                    </button>    
+                    </a>    
                     <div class="collapse navbar-collapse" id="collapseMenu">
                         <ul class="navbar-nav ms-auto list-group text-center pb-5-sm">
-                            <li class="nav-item py-2"><a class="nav-link active link-light link-underline link-underline-opacity-0" aria-current="page" href="index.html">Home</a></li>
-                            <li class="nav-item py-2"><a class="nav-link link-light link-underline link-underline-opacity-0" aria-current="page" href="about.html">About</a></li>
-                            <li class="nav-item py-2"><a class="nav-link link-light link-underline link-underline-opacity-0" aria-current="page" href="#">Work</a></li>
-                            <li class="nav-item py-2"><a class="nav-link link-light link-underline link-underline-opacity-0" aria-current="page" href="contact.html">Contact</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="about.html">About</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="#">Work</a></li>
+                            <li class="nav-item py-2"><a class="nav-link link-underline link-underline-opacity-0" aria-current="page" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,14 +49,14 @@
     <!-- main-greeting: img, greeting, h1, p -->
     
     <main>
-        <div class="wrapper container-fluid g-0 px-sm-3 p-lg-5 mx-lg-auto"> <!-- px-3-sm doesn't work-->
+        <div class="wrapper container-fluid g-0 px-3 p-lg-5 mx-lg-auto"> <!-- px-3-sm doesn't work-->
             <section class="greeting row"> 
                 <!-- main-greeting: h1, p -->
                 <div class="col-sm-6 order-0 p-2">
-                    <img class="img-fluid rounded mx-auto p-3 d-block border-0" src="images/about-profile.jpg" alt="A portrait of Joy Park"> <!-- rounded doesn't work -->
+                    <img class="img-fluid rounded mx-auto m-3 d-block" src="images/about-profile.jpg" alt="A portrait of Joy Park"> <!-- rounded doesn't work -->
                 </div>
                 <div class="col-sm-6 order-1"> 
-                    <h1 class=" py-md-4 py-sm-2 d-inline-block">안녕! Hi!</h1>
+                    <h1 class=" py-4 d-inline-block">안녕! Hi!</h1>
                     <p class="fw-light lh-sm">My name is Joy and I am an Interactive Media Designer. My personality type is <b>ISFJ</b> which is Adventurer. I tend to have open minds, approaching life, new experiences, and people with grounded warmth.</p> <!-- fs-5-lg doesn't work -->
                 </div>
             </section>
