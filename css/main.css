@@ -276,6 +276,11 @@ footer {
     .overlayBox {
         height: 10rem;
     }
+
+    #btn-resume {
+        font-size: 1rem;
+        width: 12rem;
+    }
     
 
     /* Style for About page */
