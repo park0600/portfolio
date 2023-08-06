@@ -123,8 +123,8 @@ h4 {
     top: 0px;
 }
   
-.togglerIcon span:nth-child(2),#togglerIcon span:nth-child(3),
-.togglerIcon-sub span:nth-child(2),#togglerIcon-sub span:nth-child(3) {
+.togglerIcon span:nth-child(2), .togglerIcon span:nth-child(3),
+.togglerIcon-sub span:nth-child(2), .togglerIcon-sub span:nth-child(3) {
     top: 12px;
 }
   
@@ -197,7 +197,7 @@ width: 260px;
 }
 
 /* headeer for subpages */
-.header-about {
+.header-sub {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65% 35%;
@@ -243,7 +243,7 @@ width: 260px;
 /* about page */
 .skill ul,
 .interpersonal ul {
-    list-style-type:disc;
+    list-style-type: disc;
 }
 
 #btn-resume {
@@ -272,6 +272,10 @@ footer {
     
     .navbar-nav li {
         font-size: 0.8rem;
+    }
+
+    .nav-link {
+        color: white;
     }
 
     /* Style for main page */
