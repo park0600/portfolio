@@ -226,15 +226,12 @@ width: 260px;
 
 
 /* main-contact */
-.contact {
-    background-image: url(../images/main-contact2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.main-contact h1 {
+    color: var(--primary-color);
 }
 
-#btn-contact {
-    background-color: var(--secondary-color);
+.btn-submit {
+    background-color: var(--point-color);
 }
 
 /* about page */
