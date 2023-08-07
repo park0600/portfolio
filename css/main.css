@@ -219,6 +219,11 @@ width: 260px;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
 }
 
+/* main-sub */
+.main-sub h3 {
+    color: var(--primary-color);
+}
+
 /* main-about */
 .about {
     background-image: url(../images/main-banner.jpg);
