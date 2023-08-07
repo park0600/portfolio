@@ -196,6 +196,10 @@ width: 260px;
     background-color: var(--point-color);
 }
 
+#btn-contact {
+    background-color: var(--secondary-color);
+}
+
 /* headeer for subpages */
 .header-sub {
     background-size: cover;
@@ -218,6 +222,22 @@ width: 260px;
     background: linear-gradient(to bottom, #284962 0%,#8B535B 90%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284962', endColorstr='#8B535B',GradientType=0 ); /* IE6-9 */
 }
+
+/* main-about, contact section bg img */
+.about {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15rem;
+}
+.contact {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 25%;
+    height: 15rem;
+}
+
+
 
 /* main-sub */
 .main-sub h3 {
