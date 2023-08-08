@@ -225,12 +225,14 @@ width: 260px;
 
 /* main-about, contact section bg img */
 .about {
+    background-image: url(images/main-about-banner-320.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 15rem;
 }
 .contact {
+    background-image: url(images/main-contact-320.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 75% 25%;
@@ -384,9 +386,11 @@ footer {
     /* Style for main page */
     .about {
         height: 500px;
+        background-image: url(images/main-about-banner-1280.png);
     }
     .contact {
         height: 500px;
+        background-image: url(images/main-contact-1280.png);
     }
     
     /* Style for subpage */
