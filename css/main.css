@@ -386,12 +386,9 @@ footer {
     /* Style for main page */
     .about {
         height: 500px;
-        background-image: url(images/main-about-banner-1280.png);
     }
     .contact {
-        height: 500px;
-        background-image: url(images/main-contact-1280.png);
-    }
+        height: 500px;    }
     
     /* Style for subpage */
     .header-sub {
