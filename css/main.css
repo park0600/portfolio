@@ -202,7 +202,6 @@ h4 {
 .togglerIcon.active span:nth-child(3) {
     transform: rotate(-45deg);
 }
-  
 
 .togglerIcon-main span {
     background: #676767;
@@ -215,6 +214,14 @@ h4 {
 .collapse {
     background-color: #ffffff;
     width: 100%;
+}
+
+.navbar.active {
+    background-color: white;
+}
+
+.togglerIcon.active span {
+    background: var(--secondary-color);
 }
 
 .nav-list-main .nav-link {
