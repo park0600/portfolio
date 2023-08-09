@@ -15,8 +15,8 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <!-- header: nav, logo -->
-    <header>
-        <nav class="wrapper navbar navbar-expand-md p-0 z-1">
+    <header role="banner">
+        <nav role="navigation" class="wrapper navbar navbar-expand-md p-0 z-1">
             <div class="container-fluid w-100">
                 <a href="#" class="navbar-toggler ms-auto border-0 p-0" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="togglerIcon togglerIcon-main">
@@ -47,9 +47,9 @@
     
     
     <!-- main-gallery: bg img, carousel, button -->
-<main>
+<main role="main">
     <div class="container-fluid g-0">
-        <section id="carouselGallery" class="wrapper carousel slide">
+        <section role="contentinfo" id="carouselGallery" class="wrapper carousel slide">
             <div class="carousel-indicators z-1">
                 <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -63,7 +63,7 @@
                 <button type="button" data-bs-target="#carouselGallery" data-bs-slide-to="9" aria-label="Slide 10"></button>
             </div>
             <div class="carousel-inner z-0">
-                <div class="carousel-item active">
+                <div role="region" class="carousel-item active">
                     <picture>
                         <source srcset="images/photo-korea04-320.png,
                                         images/photo-korea04-640.png 2x,
@@ -127,7 +127,7 @@
 
     <!-- main-about: h1, bg img, button -->
     
-    <section class="about" style="background-image: url(images/banner-about-1280.jpg)">
+    <section role="contentinfo" class="about" style="background-image: url(images/banner-about-1280.jpg)">
         <div class="wrapper container-fluid h-100 p-4 d-flex align-items-end align-items-sm-center">
             <div class="content py-4-sm ">
                 <h1 class="fs-1 fw-bold text-white text-start py-3">Get to Know<br>About Joy More</h1>
@@ -138,7 +138,7 @@
 
     
     <!-- main-contact: h1, bg img, button -->
-    <section class="contact" style="background-image: url(images/banner-contact-1280.png)">
+    <section role="contentinfo" class="contact" style="background-image: url(images/banner-contact-1280.png)">
         <div class=" wrapper container-fluid h-100 p-4 d-flex justify-content-end align-items-sm-center">
             <div class="content py-4">
                 <h1 class="fs-1 fw-bold text-white text-end py-3">Your Contact is<br>Always Welcome.</h1>
@@ -151,9 +151,9 @@
 </main>
 
     <!-- footer: copyright, download link, sns link -->
-    <footer>
+    <footer role="contentinfo">
         <section class="wrapper container-fluid py-3">
-            <div class="pt-2 pb-3 row">
+            <div role="complementary" class="pt-2 pb-3 row">
                 <div class="dl-resume col-7 order-0 col-lg-8 order-lg-0">
                     <a class="link-light link-offset-1" href="https://drive.google.com/file/d/1BWbmFORboP_snurxXYZiX6MUlhHkGz-j/view?usp=sharing" target="_blank">Download Resume</a>
                 </div>
@@ -170,7 +170,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="copyright pb-2 pt-md-4">
+            <div role="complementary" class="copyright pb-2 pt-md-4">
                 <p class="text-center text-white">copyright &copy; 2023 by Joyful Page</p>
             </div>
         </section>

@@ -15,10 +15,10 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- header: nav, logo -->
-    <header class="header-sub position-relative" style="background-image: url(images/photo-korea05-1280.png)">
+    <header role="banner" class="header-sub position-relative" style="background-image: url(images/photo-korea05-1280.png)">
         <section class="wrapper">
             <div class="overlayBox m-0 z-0" style="opacity: 0.6;"></div>
-            <nav class="wrapper navbar navbar-expand-md navbar-light p-0 z-1">
+            <nav role="navigation class="wrapper navbar navbar-expand-md navbar-light p-0 z-1">
                 <a href="index.html"><img id="top-logo" class="img-logo d-none d-md-block p-3 z-2" src="images/logo-w.png" alt="A logo of Joyful Page Website"></a>
                 <div class="container-fluid g-0 w-100">
                     <a href="#" class="navbar-toggler ms-auto border-0 px-3" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +48,9 @@
     
     <!-- main-greeting: img, greeting, h1, p -->
     
-    <main class="main-sub main-about">
-        <div class="wrapper container-fluid g-0 px-3 p-lg-5 mx-lg-auto"> 
-            <section class="greeting row pb-4 pt-2 pt-sm-4"> 
+    <main role="main" class="main-sub main-about">
+        <div role="contentinfo" class="wrapper container-fluid g-0 px-3 p-lg-5 mx-lg-auto"> 
+            <section role="region" class="greeting row pb-4 pt-2 pt-sm-4"> 
                 <!-- main-greeting: h2, p -->
                 <div class="col-sm-6 order-0 p-2">
                     <picture>
@@ -60,7 +60,7 @@
                         <img class="img-fluid rounded mx-auto d-block" src="images/about-profile-640.png" alt="A portrait of Joy Park">
                     </picture>
                 </div>
-                <div class="col-sm-6 order-1"> 
+                <div role="region class="col-sm-6 order-1"> 
                     <h2 class="fs-2 fw-medium py-2 d-inline-block">안녕! Hi!</h2>
                     <p class="fs-5 fw-light lh-sm">My name is Joy and I am an Interactive Media Designer. My personality type is <b>ISFJ</b> which is Adventurer. I tend to have open minds, approaching life, new experiences, and people with grounded warmth.</p>
                 </div>
@@ -68,7 +68,7 @@
 
 
             <!-- main-education: h3, h5, p -->
-            <section class="education row py-sm-3">
+            <section role="region" class="education row py-sm-3">
                 <h3 class="fs-3 fw-semibold py-2 text-uppercase col-sm-4">education</h3>
                 <div class="py-2 col-sm-8">
                     <p class="h5 fw-semibold">Diploma in Interactive Media Design</p>
@@ -84,7 +84,7 @@
             </section>
 
             <!-- main-skill: h3, ul,p, resume button  -->
-            <section class="skill row py-sm-3">
+            <section role="region" class="skill row py-sm-3">
                 <h3 class="fs-3 fw-semibold py-2 text-uppercase col-sm-4">skill</h3>
                 <div class="list1 px-4 col-sm-8 row">
                     <div class="col-sm-6">
@@ -127,7 +127,7 @@
             </section>
 
             <!-- main-interpersonal skill: h3, ul -->
-            <section class="interpersonal row py-sm-3">
+            <section role="region" class="interpersonal row py-sm-3">
                 <h3 class="fs-3 fw-semibold py-2 text-uppercase col-sm-4">interpersonal skills</h3>
                 <ul class="webdev px-4 py-2 lh-sm col-sm-8">
                     <li>Communication</li>
@@ -145,9 +145,9 @@
         </div>
     </main>
     <!-- footer: copyright, download link, sns link -->
-    <footer>
+    <footer role="contentinfo">
         <section class="wrapper container-fluid py-3">
-            <div class="pt-2 pb-3 row">
+            <div role="complementary" class="pt-2 pb-3 row">
                 <div class="dl-resume col-7 order-0 col-lg-8 order-lg-0">
                     <a class="link-light link-offset-1" href="https://drive.google.com/file/d/1BWbmFORboP_snurxXYZiX6MUlhHkGz-j/view?usp=sharing" target="_blank">Download Resume</a>
                 </div>
@@ -164,7 +164,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="copyright pb-2 pt-md-4">
+            <div role="complementary" class="copyright pb-2 pt-md-4">
                 <p class="text-center text-white">copyright &copy; 2023 by Joyful Page</p>
             </div>
         </section>

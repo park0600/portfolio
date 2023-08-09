@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- header: header-sub, bg img, h2 -->
-    <header class="header-sub position-relative" style="background-image: url(images/photo-kanata01-1280.png)">
+    <header role="banner" class="header-sub position-relative" style="background-image: url(images/photo-kanata01-1280.png)">
         <section class="wrapper">
             <div class="overlayBox m-0 z-0" style="opacity: 0.6;"></div>
-            <nav class="wrapper navbar navbar-expand-md navbar-light p-0 z-1">
+            <nav role="navigation class="wrapper navbar navbar-expand-md navbar-light p-0 z-1">
                 <a href="index.html"><img id="top-logo" class="img-logo d-none d-md-block p-3 z-2" src="images/logo-w.png" alt="A logo of Joyful Page Website"></a>
                 <div class="container-fluid g-0 w-100">
                     <a href="#" class="navbar-toggler ms-auto border-0 px-3" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,12 +45,12 @@
     </header> 
 
     <!-- main: main-sub, sm-gallery -->
-    <main class="main-sub main-work">
+    <main role="main" class="main-sub main-work">
         <div class="container gal-container wrapper container-fluid g-0 px-md-3 p-lg-5 mx-lg-auto"> 
             <!-- gallery: hover-show project title, category -->
             <!-- Gallery -->
-            <div class="row">
-                <div class="col-lg-4 col-md-12">
+            <div role="contentinfo" class="row">
+                <div role="region" class="col-lg-4 col-md-12">
                     <div class="hovereffect">                    
                         <picture>
                             <source srcset="images/photo-korea04-320.png,
@@ -209,9 +210,9 @@
 
     </main>
     <!-- footer -->
-    <footer>
+    <footer role="contentinfo">
         <section class="wrapper container-fluid py-3">
-            <div class="pt-2 pb-3 row">
+            <div role="complementary" class="pt-2 pb-3 row">
                 <div class="dl-resume col-7 order-0 col-lg-8 order-lg-0">
                     <a class="link-light link-offset-1" href="https://drive.google.com/file/d/1BWbmFORboP_snurxXYZiX6MUlhHkGz-j/view?usp=sharing" target="_blank">Download Resume</a>
                 </div>
@@ -228,7 +229,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="copyright pb-2 pt-md-4">
+            <div role="complementary" class="copyright pb-2 pt-md-4">
                 <p class="text-center text-white">copyright &copy; 2023 by Joyful Page</p>
             </div>
         </section>
