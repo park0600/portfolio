@@ -75,7 +75,7 @@ h4 {
 
 /* button style */
 .btn {
-    width: 9rem;
+    width: 11rem;
     border-radius: 0;
     border: 3px solid;
     padding: 0.5rem;
@@ -146,7 +146,7 @@ h4 {
     border-color: var(--primary-color);
 }
 
-#btn-about {
+#btn-about, #btn-submit, #btn-resume {
     background-color: var(--point-color);
     border-color: var(--point-color);
 }
@@ -291,15 +291,6 @@ width: 260px;
     list-style-type: disc;
 }
 
-#btn-resume {
-    font-family: 'Inter';
-    font-size: 0.7rem;
-    font-weight: 500;
-    width: 9rem;
-    color: white;
-    border-radius: 0;
-    background-color: var(--point-color);
-}
 
 /* gallery */
 .hovereffect {
