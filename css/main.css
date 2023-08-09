@@ -86,84 +86,49 @@ h4 {
 
 
 /* Hamburger btn for main */
-.togglerIcon, .togglerIcon-sub {
+.togglerIcon {
     width: 40px;
     height: 30px;
     margin: 20px auto;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-}
-
-.togglerIcon span, .togglerIcon-sub span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.togglerIcon span:nth-child(1),
-.togglerIcon-sub span:nth-child(1) {
-    top: 0px;
-}
-  
-.togglerIcon span:nth-child(2), .togglerIcon span:nth-child(3),
-.togglerIcon-sub span:nth-child(2), .togglerIcon-sub span:nth-child(3) {
-    top: 12px;
-}
-  
-.togglerIcon span:nth-child(4),
-.togglerIcon-sub span:nth-child(4) {
-    top: 24px;
-}
-
-.togglerIcon.open span:nth-child(1),
-.togglerIcon-sub.open span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
-  
-.togglerIcon.open span:nth-child(2),
-.togglerIcon-sub.open span:nth-child(2) {
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
-}
-
-.togglerIcon.open span:nth-child(3),
-.togglerIcon-sub.open span:nth-child(3) {
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
--o-transform: rotate(-45deg);
-transform: rotate(-45deg);
-}
-
-.togglerIcon.open span:nth-child(4),
-.togglerIcon-sub.open span:nth-child(4) {
-top: 18px;
-width: 0%;
-left: 50%;
+    position: relative;
+    transition: .3s ease-in-out;
 }
 
 .togglerIcon span {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    right: 0;
+    top: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.togglerIcon span:nth-child(1) {
+    top: 0px;
+}
+  
+.togglerIcon span:nth-child(2),
+.togglerIcon span:nth-child(3) {
+    top: 12px;
+}
+  
+.togglerIcon span:nth-child(4) {
+    top: 24px;
+}
+
+.togglerIcon.active span:nth-child(1), .togglerIcon.active span:nth-child(4) {
+    opacity: 0;
+}
+.togglerIcon.active span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.togglerIcon.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+  
+
+.togglerIcon-main span {
     background: #676767;
 }
 
@@ -176,8 +141,12 @@ left: 50%;
     width: 100%;
 }
 
-.nav-link {
+.nav-list-main .nav-link {
     color: var(--secondary-color);
+}
+
+.nav-link:hover {
+    color: var(--point-color);
 }
 
 /* logo */
