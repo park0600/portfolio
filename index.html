@@ -17,7 +17,7 @@
 <!-- header: nav, logo -->
     <header role="banner">
         <nav role="navigation" class="wrapper navbar navbar-expand-md p-0 z-1">
-            <div class="container-fluid w-100">
+            <div class="navbar container-fluid w-100">
                 <a href="#" class="navbar-toggler ms-auto border-0 p-0" role="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="togglerIcon togglerIcon-main">
                         <span></span>
@@ -64,49 +64,58 @@
             </div>
             <div class="carousel-inner z-0">
                 <div role="region" class="carousel-item active">
-                    <picture>
-                        <source srcset="images/photo-korea04-320.png,
-                                        images/photo-korea04-640.png 2x,
-                                        images/photo-korea04-1024.png 3x"
-                                media="(min-width: 640px)" />
-                        <img src="images/photo-korea04-1024.png" class="d-block w-100" alt="slide">
-                    </picture>
+                        <img 
+                            class="d-block w-100" 
+                            srcset="images/photo-korea04-320.png 320w,
+                                    images/photo-korea04-640.png 640w,
+                                    images/photo-korea04-1024.png 1024w"
+                            sizes="(max-width: 320px) 320px,
+                                    (max-width: 640px) 640px,
+                                    (max-width: 1024px) 1024px"
+                            src="images/photo-korea04-1024.png"
+                            alt="A photography of the see in the South Korea" >
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source srcset="images/moodboard_Page_1-320.png,
-                                        images/moodboard_Page_1-640.png 2x,
-                                        images/moodboard_Page_1-1024.png 3x"
-                                media="(min-width: 640px)" />
-                        <img src="images/moodboard_Page_1-1024.png" class="d-block w-100" alt="slide">
-                    </picture>
+                    <img class="d-block w-100" 
+                            srcset="images/moodboard_Page_1-640.png 640w,
+                                    images/moodboard_Page_1-1024.png 1024w"
+                            sizes="(max-width: 640px) 640px,
+                                    (max-width: 1024px) 1024px"
+                            src="images/moodboard_Page_1-1024.png"
+                            alt="A moodboard of rebranding Algonquin logo" >
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source srcset="images/video-folley-320.png,
-                                        images/video-folley-640.png 2x,
-                                        images/video-folley-1024.png 3x"
-                                media="(min-width: 640px)" />
-                        <img src="images/video-folley-1024.png" class="d-block w-100" alt="slide">
-                    </picture>
+                    <img class="d-block w-100" 
+                            srcset="images/video-folley-320.png 320w,
+                                    images/video-folley-640.png 640w,
+                                    images/video-folley-1024.png 1024w"
+                            sizes="(max-width: 320px) 320px,
+                                    (max-width: 640px) 640px,
+                                    (max-width: 1024px) 1024px"
+                            src="images/video-folley-1024.png"
+                            alt="A picture of a video making sunnyside up egg" >
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source srcset="images/thumb-web02-320.png,
-                                        images/thumb-web02-640.png 2x,
-                                        images/thumb-web02-1024.png 3x"
-                                media="(min-width: 640px)" />
-                        <img src="images/web02-1024.png" class="d-block w-100" alt="slide">
-                    </picture>
+                    <img class="d-block w-100" 
+                            srcset="images/thumb-web02-320.png 320w,
+                                    images/thumb-web02-640.png 640w,
+                                    images/thumb-web02-1024.png 1024w"
+                            sizes="(max-width: 320px) 320px,
+                                    (max-width: 640px) 640px,
+                                    (max-width: 1024px) 1024px"
+                            src="images/thumb-web02-1024.png"
+                            alt="A screenshot of comfy skin company website" >
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source srcset="images/thum-movie-poster-320.png,
-                                        images/thum-movie-poster-640.png 2x,
-                                        images/thum-movie-poster-1024.png 3x"
-                                media="(min-width: 640px)" />
-                        <img src="images/thum-movie-poster-1024.png" class="d-block w-100" alt="slide">
-                    </picture>
+                    <img class="d-block w-100" 
+                            srcset="images/thum-movie-poster-320.png 320w,
+                                    images/thum-movie-poster-640.png 640w,
+                                    images/thum-movie-poster-1024.png 1024w"
+                            sizes="(max-width: 320px) 320px,
+                                    (max-width: 640px) 640px,
+                                    (max-width: 1024px) 1024px"
+                            src="images/thum-movie-poster-1024.png"
+                            alt="A movie poster" >
                 </div>
                 <div class="carousel-caption">
                     <button class="btn" id="btn-work" onclick="window.location.href='work.html';"><span>See More Work</span><span>See More Work</span></button>
