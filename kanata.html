@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Park's Portfolio</title>
+    <script src="https://kit.fontawesome.com/0b8c2d9154.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper-all">
+        <!-- header: title, category, close button -->
+        <header class="project container-fluid g-0 w-100 position-relative">
+            <div class="wrapper">
+                <div class="project-info text-center d-flex-block justify-content-center mx-auto">
+                    <h1 class="fs-2 pt-5">Essay Photo of Kanata</h1>
+                    <button type="button" class="btn-close py-3" aria-label="Close" onclick="window.location.href='work.html';"></button>
+                    <ul class="project-detail pb-5">
+                        <li class="py-1"><span class="px-2">Role</span>Photography</li>
+                        <li class="py-1"><span class="px-2">Date</span>2023</li>
+                    </ul>
+                </div>
+                
+                <!-- gallery -->
+                <picture>
+                    <source srcset="images/photo-kanata01-640.png x,
+                                    images/photo-kanata01-1024.png 2x"
+                            media="(min-width: 640px)" />
+                    <source srcset="images/photo-kanata01-320.png,
+                                    images/photo-kanata01-640.png 2x"
+                            media="(min-width: 320px)" />
+                    <img src="images/photo-kanata01-1024.png" class="d-block w-100" alt="A picture of the townhouse over the lake in the sunsetr">
+                </picture>
+                <picture>
+                    <source srcset="images/photo-kanata02-640.png x,
+                                    images/photo-kanata02-1024.png 2x"
+                            media="(min-width: 640px)" />
+                    <source srcset="images/photo-kanata02-320.png,
+                                    images/photo-kanata02-640.png 2x"
+                            media="(min-width: 320px)" />
+                    <img src="images/photo-kanata02-1024.png" class="d-block w-100" alt="A picture of a lake with a goose swimming alone in the red sunset">
+                </picture>
+                <picture>
+                    <source srcset="images/photo-kanata03-640.png x,
+                                    images/photo-kanata03-1024.png 2x"
+                            media="(min-width: 640px)" />
+                    <source srcset="images/photo-kanata03-320.png,
+                                    images/photo-kanata03-640.png 2x"
+                            media="(min-width: 320px)" />
+                    <img src="images/photo-kanata03-1024.png" class="d-block w-100" alt="A photo of airplane clouds shining brightly like meteors in the evening sky">
+                </picture>
+                <picture>
+                    <source srcset="images/photo-kanata04-640.png x,
+                                    images/photo-kanata04-1024.png 2x"
+                            media="(min-width: 640px)" />
+                    <source srcset="images/photo-kanata04-320.png,
+                                    images/photo-kanata04-640.png 2x"
+                            media="(min-width: 320px)" />
+                    <img src="images/photo-kanata04-1024.png" class="d-block w-100" alt="A photograph of lamps in the garden">
+                </picture>
+            </div>
+        </header>
+
+        <!-- previous button, title -->
+        <div class="container w-100 d-flex justify-content-between py-3">
+            <div class="d-flex-block justify-content-start">
+                <a href="avatar.html" class="prev"><i class="fa-solid fa-arrow-left-long" style="color: #77C0D2;"></i></a>
+                <p>Previous</p>
+            </div>
+            
+            
+            <!-- next button, title -->
+            <div class="d-flex-block justify-content-end">
+                <a href="webdesign.html"><i class="fa-solid fa-arrow-left-long fa-flip-horizontal" style="color: #77C0D2;"></i></a>
+                <p>Next</p>
+            </div>
+        </div>
+    </div>
+        <!-- footer -->
+        <footer role="contentinfo">
+            <section class="wrapper container-fluid py-3">
+                <div role="complementary" class="pt-2 pb-3 row">
+                    <div class="dl-resume col-7 order-0 col-lg-8 order-lg-0">
+                        <a class="link-light link-offset-1" href="https://drive.google.com/file/d/1BWbmFORboP_snurxXYZiX6MUlhHkGz-j/view?usp=sharing" target="_blank">Download Resume</a>
+                    </div>
+                    <div class="sns text-end col-5 order-2 col-lg-2 order-lg-2">
+                        <a class="px-1" href="https://www.instagram.com/ejdeep12/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+                        <a class="px-1" href="https://twitter.com/ejdeep12" target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></a>
+                        <a class="px-1" href="https://www.facebook.com/bbumi22" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="footer-nav col-12 py-3 py-lg-0 order-3 col-lg-2 order-lg-1">
+                        <ul>
+                            <li><a class="link-light link-underline-0 link-underline-opacity-0 link-underline-opacity-75-hover" href="about.html">About Me</a></li>
+                            <li><a class="link-light link-underline-0 link-underline-opacity-0 link-underline-opacity-75-hover" href="work.html">Work</a></li>
+                            <li><a class="link-light link-underline-0 link-underline-opacity-0 link-underline-opacity-75-hover" href="contact.html">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div role="complementary" class="copyright pb-2 pt-md-4">
+                    <p class="text-center text-white">copyright &copy; 2023 by Joyful Page</p>
+                </div>
+            </section>
+        </footer>
+</body>
+</html>

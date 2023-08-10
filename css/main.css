@@ -98,7 +98,6 @@ h4 {
 .btn span:first-child {
     position: relative;
     color: white;
-    /* transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1); */
     z-index: 10;
 }
 
@@ -341,7 +340,8 @@ width: 260px;
   }
   
   .hovereffect h3, 
-  .hovereffect p {
+  .hovereffect p, 
+  .hovereffect a {
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -358,12 +358,12 @@ width: 260px;
     font-size: 1rem;
   }
   
-  .hovereffect p {
+  .hovereffect p,  .hovereffect a {
     transform: translate3d(0,100%,0);
     font-size: 0.7rem;
   }
   
-  .hovereffect:hover p, .hovereffect:hover h3 {
+  .hovereffect:hover p, .hovereffect:hover h3, .hovereffect:hover a {
     opacity: 1;
     filter: alpha(opacity=100);
     transform: translate3d(0,0,0);
@@ -376,6 +376,19 @@ width: 260px;
     align-items: center;
   }
 
+  .class {
+    color: var(--primary-color);
+  }
+
+  .project li {
+    font-size: 0.8rem;
+  }
+
+  .project li span {
+    color: var(--primary-color);
+  }
+
+
 
 /* footer */
 footer {
@@ -385,6 +398,11 @@ footer {
 @media screen and (min-width: 760px) {
 
     /* Style for all pages */
+    .wrapper-all {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
     .wrapper {
         margin:0 auto;
         max-width: 1024px;
