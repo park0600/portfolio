@@ -228,7 +228,7 @@ h4 {
 }
 
 .nav-link:hover {
-    color: var(--point-color);
+    color: var(--secondary-color);
 }
 
 /* logo */
